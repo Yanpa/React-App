@@ -1,0 +1,40 @@
+{
+    "cardCollectionData": [
+        {
+            "id": 1,
+            "name": "Panayot Yanev",
+            "description": "Computer Science student, jack of all traits, most likeable person you'll ever meet",
+            "jobOcupation": "None"
+        },
+        {
+            "id": 2,
+            "name": "Nadya Dukova",
+            "description": "Design Lead by hearth",
+            "jobOcupation": "Design Lead"
+        },
+        {
+            "id": 3,
+            "name": "Ivo Dukov",
+            "description": "Best programmer ever",
+            "jobOcupation": "CEO"
+        },
+        {
+            "id": 4,
+            "name": "Erkan Kamber",
+            "description": "'Best Petstin Java ever'",
+            "jobOcupation": "'Java job'"
+        },
+        {
+            "id": 5,
+            "name": "Martin Tabakov",
+            "description": "'Best Senior Junior ever'",
+            "jobOcupation": "'CEO of PowerApps'"
+        },
+        {
+            "id": 6,
+            "name": "Ivan Petkov",
+            "description": "'Best weeb ever'",
+            "jobOcupation": "'CEO of cats'"
+        }
+    ]
+}
