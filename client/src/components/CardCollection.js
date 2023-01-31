@@ -6,15 +6,15 @@ function CardCollection(props) {
     const [cardsData, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/cardCollectionData')
+        fetch('http://localhost:5000/cardCollectionData')
             .then(res => res.json())
             .then(cardsData => {setData(() => cardsData)})
     }, []);
 
     if(cardsData.length === 0) {
         return(
-            <div>
-                <p>Loading data...</p>
+            <div className="loading-data-message">
+                <h1>Loading data...</h1>
             </div>
         );
     }

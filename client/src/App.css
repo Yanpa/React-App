@@ -24,6 +24,12 @@ body {
   grid-template-rows: auto;
 }
 
+.loading-data-message h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 .card {
   height: 400px;
   width: 450px;
